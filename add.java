@@ -1,12 +1,12 @@
 //SampleJenkinsProgram
 //hello
 //this is a program
-import java.util.Scanner;
+
 class add
 {
 	public static void  main(String []args)
 	{  
-	 Scanner s=new Scanner(System.in);
+	
 	System.out.println("enter value for A and B:");
 	int A=Integer.parseInt(args[0]);
 	int B=Integer.parseInt(args[1]);
