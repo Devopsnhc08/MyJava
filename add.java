@@ -6,12 +6,12 @@ class add
 {
 	public static void  main(String []args)
 	{  
-	 Scanner s=new Scanner(system.in);
-	System.out.printline("enter value for A and B:");
+	 Scanner s=new Scanner(System.in);
+	System.out.println("enter value for A and B:");
 	int A=s.nextInt();
 	int B=s.nextInt();
 	int sum;
 	sum=A+B;
-	System.out.printline("the sum of {0} and {1} is:"+sum );
+	System.out.println("the sum of the given two number is:"+sum );
 	}
 }
